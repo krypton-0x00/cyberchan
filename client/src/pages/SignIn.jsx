@@ -47,16 +47,13 @@ export default function SignIn() {
         {/* left */}
         <div className="flex-1">
           <Link to="/" className="font-bold dark:text-white text-4xl">
-            <span className="px-2 py-1  text-white">
-              Cyber
-            </span>
+            <span className="px-2 py-1 text-black  dark:text-white">Cyber</span>
             Chan
           </Link>
           <p className="text-sm mt-5">
             You can sign in with your email and password or with Google.
           </p>
         </div>
-        {/* right */}
 
         <div className="flex-1">
           <form className="flex flex-col gap-4" onSubmit={handleSubmit}>

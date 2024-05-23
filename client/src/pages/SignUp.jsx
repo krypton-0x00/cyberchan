@@ -43,7 +43,9 @@ export default function SignUp() {
         {/* left */}
         <div className="flex-1">
           <Link to="/" className="font-bold dark:text-white text-4xl">
-            <span className="px-2 py-1   text-white">Cyber</span>
+            <span className="px-2 py-1   text-black dark:text-white">
+              Cyber
+            </span>
             Chan
           </Link>
           <p className="text-sm mt-5">
